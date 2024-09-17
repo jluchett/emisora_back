@@ -21,11 +21,11 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 1. Clona este repositorio:
     ```bash
-   git clone https://github.com/tu-usuario/emisora-backend.git
+   git clone https://github.com/jluchett/emisora_back.git
     ```
 2. Navega a la carpeta del proyecto:
     ```bash
-   cd emisora-backend
+   cd emisora_back
    ```
 
 3. Instala las dependencias:
