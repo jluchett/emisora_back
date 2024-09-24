@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const errorHandler = require('./src/middleware/errorHandler');
 require('dotenv').config()
 const cancionesRoutes = require('./src/routes/cancionesRoutes')
@@ -6,6 +7,7 @@ const cancionesRoutes = require('./src/routes/cancionesRoutes')
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/api', async (req, res) => {
   res.json('Hola mundo');
